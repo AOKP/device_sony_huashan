@@ -169,12 +169,6 @@
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveNotificationLed">true</bool>
 
-    <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
-    <bool name="config_intrusiveBatteryLed">true</bool>
-
-    <!-- Can we change the battery color? -->
-    <bool name="config_multiColorBatteryLed">true</bool>
-
     <bool name="config_ui_enableFadingMarquee">false</bool>
 
     <!-- Hardware 'face' keys present on the device, stored as a bit field.
@@ -247,9 +241,6 @@
     <bool name="config_cellBroadcastAppLinks">true</bool>
 
     <string name="config_datause_iface" translatable="false">rmnet0</string>
-
-    <!-- LED Flashlight -->
-    <bool name="config_enableTorch">true</bool>
 
     <!-- Disable lockscreen translucent decor by default -->
     <bool name="config_enableLockScreenTranslucentDecor">true</bool>
