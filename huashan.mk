@@ -139,6 +139,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/fstab.qcom:root/fstab.qcom \
     $(LOCAL_PATH)/rootdir/fstab.qcom:recovery/root/fstab.qcom
 
+#TWRP
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/twrp.fstab:recovery/root/etc/twrp.fstab
+
 # Wifi Config
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
