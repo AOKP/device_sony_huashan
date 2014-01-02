@@ -73,7 +73,7 @@ PRODUCT_COPY_FILES += \
 
 # HW Settings
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilt/hw_config.sh:system/etc/hw_config.sh
+    $(LOCAL_PATH)/rootdir/system/etc/hw_config.sh:system/etc/hw_config.sh
 
 # Key layouts
 PRODUCT_COPY_FILES += \
