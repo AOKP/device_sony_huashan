@@ -151,4 +151,5 @@ TW_BOARD_CUSTOM_GRAPHICS := ../../../device/sony/huashan/recovery/twrpgraphics.c
 #TW_BRIGHTNESS_PATH := /sys/devices/i2c-0/0-0036/leds/lm3533-lcd-bl/brightness
 #TW_MAX_BRIGHTNESS := 255
 #TW_NO_USB_STORAGE := true
+USE_SET_METADATA := false
 
