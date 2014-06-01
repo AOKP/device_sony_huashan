@@ -168,6 +168,7 @@ BOARD_SEPOLICY_UNION += \
     tee.te \
     thermald.te \
     ueventd.te \
+    vold.te \
     wpa_supplicant.te
 
 
