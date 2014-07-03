@@ -117,7 +117,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/system/etc/lowi.conf:system/etc/lowi.conf \
     $(LOCAL_PATH)/rootdir/system/etc/quipc.conf:system/etc/quipc.conf \
     $(LOCAL_PATH)/rootdir/system/etc/sap.conf:system/etc/sap.conf \
-    $(LOCAL_PATH)/rootdir/system/etc/xtwifi.conf:system/etc/xtwifi.conf
 
 # SEC Config
 PRODUCT_COPY_FILES += \
